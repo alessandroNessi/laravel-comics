@@ -1,4 +1,8 @@
 //
-body{
-    background-color: pink !important;
-}
+@import url(partials/_variables.scss);
+
+@import url(partials/_common.scss);
+
+@import url(partials/_themes.scss);
+
+@import url(partials/_base_layout.scss);
