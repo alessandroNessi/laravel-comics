@@ -1,26 +1,5 @@
+@import url(header.scss);
 
-/*HEADER sass non compila un cazzo*/
-header{
-    background-color: #0282f9;
-    font-size: 20px;
-    color: white;
-}
-header .apice{
-    font-size: 10px;
-}
-header i{
-    font-size: 16px;
-}
-header .container ul{
-    display: flex;
-    width: 100%;
-    height: 30px;
-    align-items: center;
-    justify-content: flex-end;
-}
-header .container li{
-    margin-left: 80px;
-}
 /*NAV sass non compila un cazzo*/
 nav{
     height: 100px;
@@ -28,7 +7,7 @@ nav{
 /*BANNER*/
 .banner{
     height: 450px;
-    background-image: url(images/jumbotron.jpg);
+    background-image: url('../images/jumbotron.jpg');
     background-size: cover;
     width: 100%;
 }

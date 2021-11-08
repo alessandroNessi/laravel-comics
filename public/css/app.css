@@ -11,12 +11,13 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
-}
-/*HEADER sass non compila un cazzo*/
-header{
+}header{
     background-color: #0282f9;
     font-size: 20px;
     color: white;
+    .apice{
+        font-size: 20px;
+    }
 }
 header .apice{
     font-size: 10px;
@@ -33,15 +34,14 @@ header .container ul{
 }
 header .container li{
     margin-left: 80px;
-}
-/*NAV sass non compila un cazzo*/
+}/*NAV sass non compila un cazzo*/
 nav{
     height: 100px;
 }
 /*BANNER*/
 .banner{
     height: 450px;
-    background-image: url(images/jumbotron.jpg);
+    background-image: url('../images/jumbotron.jpg');
     background-size: cover;
     width: 100%;
 }
